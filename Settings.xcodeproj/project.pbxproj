@@ -17,6 +17,14 @@
 		CE4DECC12AB2E47A0068DD69 /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DECC02AB2E47A0068DD69 /* SettingsTests.swift */; };
 		CE4DECCB2AB2E47B0068DD69 /* SettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DECCA2AB2E47B0068DD69 /* SettingsUITests.swift */; };
 		CE4DECCD2AB2E47B0068DD69 /* SettingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DECCC2AB2E47B0068DD69 /* SettingsUITestsLaunchTests.swift */; };
+		CE643A2D2AB3043D00DB6E52 /* toggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE643A2B2AB3043D00DB6E52 /* toggleTableViewCell.swift */; };
+		CE643A2E2AB3043D00DB6E52 /* toggleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE643A2C2AB3043D00DB6E52 /* toggleTableViewCell.xib */; };
+		CE643A302AB305CC00DB6E52 /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE643A2F2AB305CC00DB6E52 /* settingsTableViewController.swift */; };
+		CE643A332AB3064600DB6E52 /* userTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE643A312AB3064600DB6E52 /* userTableViewCell.swift */; };
+		CE643A342AB3064600DB6E52 /* userTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE643A322AB3064600DB6E52 /* userTableViewCell.xib */; };
+		CE643A372AB3066000DB6E52 /* labelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE643A352AB3066000DB6E52 /* labelTableViewCell.swift */; };
+		CE643A382AB3066000DB6E52 /* labelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE643A362AB3066000DB6E52 /* labelTableViewCell.xib */; };
+		CE643A3A2AB30B0100DB6E52 /* buttonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE643A392AB30B0100DB6E52 /* buttonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		CE4DECC62AB2E47B0068DD69 /* SettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4DECCA2AB2E47B0068DD69 /* SettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUITests.swift; sourceTree = "<group>"; };
 		CE4DECCC2AB2E47B0068DD69 /* SettingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE643A2B2AB3043D00DB6E52 /* toggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggleTableViewCell.swift; sourceTree = "<group>"; };
+		CE643A2C2AB3043D00DB6E52 /* toggleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toggleTableViewCell.xib; sourceTree = "<group>"; };
+		CE643A2F2AB305CC00DB6E52 /* settingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsTableViewController.swift; sourceTree = "<group>"; };
+		CE643A312AB3064600DB6E52 /* userTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userTableViewCell.swift; sourceTree = "<group>"; };
+		CE643A322AB3064600DB6E52 /* userTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userTableViewCell.xib; sourceTree = "<group>"; };
+		CE643A352AB3066000DB6E52 /* labelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelTableViewCell.swift; sourceTree = "<group>"; };
+		CE643A362AB3066000DB6E52 /* labelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = labelTableViewCell.xib; sourceTree = "<group>"; };
+		CE643A392AB30B0100DB6E52 /* buttonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,14 @@
 				CE4DECA82AB2E4770068DD69 /* SceneDelegate.swift */,
 				CE4DECAA2AB2E4770068DD69 /* ViewController.swift */,
 				CE4DECAC2AB2E4770068DD69 /* Main.storyboard */,
+				CE643A392AB30B0100DB6E52 /* buttonTableViewCell.swift */,
+				CE643A312AB3064600DB6E52 /* userTableViewCell.swift */,
+				CE643A352AB3066000DB6E52 /* labelTableViewCell.swift */,
+				CE643A362AB3066000DB6E52 /* labelTableViewCell.xib */,
+				CE643A322AB3064600DB6E52 /* userTableViewCell.xib */,
+				CE643A2F2AB305CC00DB6E52 /* settingsTableViewController.swift */,
+				CE643A2B2AB3043D00DB6E52 /* toggleTableViewCell.swift */,
+				CE643A2C2AB3043D00DB6E52 /* toggleTableViewCell.xib */,
 				CE4DECB22AB2E47A0068DD69 /* Assets.xcassets */,
 				CE4DECB42AB2E47A0068DD69 /* LaunchScreen.storyboard */,
 				CE4DECB72AB2E47A0068DD69 /* Info.plist */,
@@ -235,7 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4DECB62AB2E47A0068DD69 /* LaunchScreen.storyboard in Resources */,
+				CE643A2E2AB3043D00DB6E52 /* toggleTableViewCell.xib in Resources */,
+				CE643A342AB3064600DB6E52 /* userTableViewCell.xib in Resources */,
 				CE4DECB32AB2E47A0068DD69 /* Assets.xcassets in Resources */,
+				CE643A382AB3066000DB6E52 /* labelTableViewCell.xib in Resources */,
 				CE4DECAE2AB2E4770068DD69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE643A2D2AB3043D00DB6E52 /* toggleTableViewCell.swift in Sources */,
 				CE4DECAB2AB2E4770068DD69 /* ViewController.swift in Sources */,
+				CE643A302AB305CC00DB6E52 /* settingsTableViewController.swift in Sources */,
 				CE4DECA72AB2E4770068DD69 /* AppDelegate.swift in Sources */,
 				CE4DECB12AB2E4770068DD69 /* Settings.xcdatamodeld in Sources */,
+				CE643A332AB3064600DB6E52 /* userTableViewCell.swift in Sources */,
+				CE643A372AB3066000DB6E52 /* labelTableViewCell.swift in Sources */,
 				CE4DECA92AB2E4770068DD69 /* SceneDelegate.swift in Sources */,
+				CE643A3A2AB30B0100DB6E52 /* buttonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
